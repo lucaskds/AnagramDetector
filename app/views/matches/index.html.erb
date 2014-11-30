@@ -1,5 +1,5 @@
 <h1>Anagrams detecteds</h1>
- 
+ <%= link_to 'New match', 'matches/new' %>
 <table>
   <tr>
     <th>String 1</th>
@@ -12,6 +12,7 @@
       <td><%= post.str_1 %></td>
       <td><%= post.str_2 %></td>
       <td><%= post.match %></td>
+      <td><%= link_to 'view', post %></td>
     </tr>
   <% end %>
 </table>

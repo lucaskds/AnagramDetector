@@ -1,3 +1,5 @@
+require 'i18n'
+
 class MatchesController < ApplicationController
   def new
   	
@@ -24,6 +26,8 @@ class MatchesController < ApplicationController
   end
   
   def detect_anagram(arr_1, arr_2)
-    arr_1.downcase.tr('^0-9a-zA-Z\u00C0-\u00C4\u00C7-\u00CF\u00D1-\u00D6\u00D9-\u00DDẼĨŨ\u00E0-\u00E4\u00E7-\u00EF\u00F1-\u00F6\u00F9-\u00FDẽĩũ', '').tr('?','').split("").sort == arr_2.downcase.tr('^0-9a-zA-Z\u00C0-\u00C4\u00C7-\u00CF\u00D1-\u00D6\u00D9-\u00DDẼĨŨ\u00E0-\u00E4\u00E7-\u00EF\u00F1-\u00F6\u00F9-\u00FDẽĩũ', '').tr('?','').split("").sort
+    arr_1 = I18n.transliterate(arr_1)
+    arr_2 = I18n.transliterate(arr_2)
+    arr_1.downcase.tr('^0-9a-zA-Z', '').split("").sort == arr_2.downcase.tr('^0-9a-zA-Z', '').split("").sort
   end
 end

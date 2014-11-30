@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  str_1: MyString
+  str_2: MyString
+  match: false
+
+two:
+  str_1: MyString
+  str_2: MyString
+  match: false

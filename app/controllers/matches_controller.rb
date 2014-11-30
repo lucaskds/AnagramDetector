@@ -26,8 +26,8 @@ class MatchesController < ApplicationController
   end
   
   def detect_anagram(arr_1, arr_2)
-    arr_1 = I18n.transliterate(arr_1)
-    arr_2 = I18n.transliterate(arr_2)
-    arr_1.downcase.tr('^0-9a-zA-Z', '').split("").sort == arr_2.downcase.tr('^0-9a-zA-Z', '').split("").sort
+    arr_1 = I18n.transliterate(arr_1.tr('ẽẼ','eE'))
+    arr_2 = I18n.transliterate(arr_2.tr('ẽẼ','eE'))
+    arr_1.downcase.tr('^0-9a-z', '').split("").sort == arr_2.downcase.tr('^0-9a-z', '').split("").sort
   end
 end

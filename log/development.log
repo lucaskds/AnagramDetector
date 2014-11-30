@@ -1,0 +1,580 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:09:19 -0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:09:24 -0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:09:24 -0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+  [1m[36m (28.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (41.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMatches (20141130150458)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (68.0ms)[0m  [1mCREATE TABLE "matches" ("id" serial primary key, "str_1" character varying(255), "str_2" character varying(255), "match" boolean, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141130150458"]]
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:21:14 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/share/gems/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 80ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:32:06 -0200
+Processing by MatchesController#index as HTML
+  Rendered matches/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1083ms (Views: 1080.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:07 -0200
+
+
+Started GET "/new" for 127.0.0.1 at 2014-11-30 14:32:14 -0200
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /usr/share/ruby/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.7ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.6ms)
+
+
+Started GET "/matches" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+Processing by MatchesController#index as HTML
+  Rendered matches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:22 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:32:24 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 140ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:32:25 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:33:10 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (17.2ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `posts_path' for #<#<Class:0x00000004afcec8>:0x00000004cc3c98>):
+    1: <h1>New Post</h1>
+    2: <%= form_for :post, url: posts_path do |f| %>
+    3:   <p>
+    4:     <%= f.label :str_1 %><br>
+    5:     <%= f.text_field :str_1 %>
+  app/views/matches/new.html.erb:2:in `_app_views_matches_new_html_erb___802058672107221417_40243440'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.9ms)
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:33:35 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (82.2ms)
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:36 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:33:59 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:07 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:16 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:21 -0200
+
+
+Started POST "/matches" for 127.0.0.1 at 2014-11-30 14:34:36 -0200
+Processing by MatchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qtdSy3tz2xPlultFBaJYAX7oihx8+vLrrWSXt3ixou4=", "post"=>{"str_1"=>"amendoim", "str_2"=>"mendoima", "match"=>"false"}, "commit"=>"Match"}
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `result=' for #<Match:0x00000004dc1320>):
+  app/controllers/matches_controller.rb:12:in `create'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:34:56 -0200
+
+
+Started POST "/matches" for 127.0.0.1 at 2014-11-30 14:35:08 -0200
+Processing by MatchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qtdSy3tz2xPlultFBaJYAX7oihx8+vLrrWSXt3ixou4=", "post"=>{"str_1"=>"amendoim", "str_2"=>"mendoima", "match"=>"false"}, "commit"=>"Match"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "matches" ("created_at", "match", "str_1", "str_2", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2014-11-30 16:35:08.125464"], ["match", "t"], ["str_1", "amendoim"], ["str_2", "mendoima"], ["updated_at", "2014-11-30 16:35:08.125464"]]
+  [1m[35m (13.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/matches/1
+Completed 302 Found in 107ms (ActiveRecord: 18.1ms)
+
+
+Started GET "/matches/1" for 127.0.0.1 at 2014-11-30 14:35:08 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMatch Load (0.5ms)[0m  [1mSELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered matches/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `title' for #<Match:0x00000004d7d788>):
+    1: <p>
+    2:   <strong>String 1:</strong>
+    3:   <%= @post.title %>
+    4: </p>
+    5:  
+    6: <p>
+  app/views/matches/show.html.erb:3:in `_app_views_matches_show_html_erb___1074746863172593473_40613520'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.1ms)
+
+
+Started GET "/matches/1" for 127.0.0.1 at 2014-11-30 14:35:34 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMatch Load (0.6ms)[0m  SELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered matches/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 92ms (Views: 87.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:35:35 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:35:59 -0200
+Processing by MatchesController#index as HTML
+  [1m[36mMatch Load (0.5ms)[0m  [1mSELECT "matches".* FROM "matches"[0m
+  Rendered matches/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `title' for #<Match:0x00000004f19790>):
+     9:  
+    10:   <% @posts.each do |post| %>
+    11:     <tr>
+    12:       <td><%= post.title %></td>
+    13:       <td><%= post.text %></td>
+    14:       <td><%= post.result %></td>
+    15:     </tr>
+  app/views/matches/index.html.erb:12:in `block in _app_views_matches_index_html_erb___4329341523826454309_41509220'
+  app/views/matches/index.html.erb:10:in `_app_views_matches_index_html_erb___4329341523826454309_41509220'
+
+
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/share/gems/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.5ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200

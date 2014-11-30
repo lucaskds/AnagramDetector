@@ -1,0 +1,17 @@
+<h1>New Detection</h1>
+<%= form_for :post, url: matches_path do |f| %>
+  <p>
+    <%= f.label 'String 1' %><br>
+    <%= f.text_field :str_1 %>
+  </p>
+ 
+  <p>
+    <%= f.label 'String 2' %><br>
+    <%= f.text_field :str_2 %>
+  </p>
+ 
+  <p>
+    <%= f.hidden_field :match, :value => false %>
+    <%= f.submit "Match"%>
+  </p>
+<% end %>

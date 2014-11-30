@@ -1,0 +1,17 @@
+<h1>Anagrams detecteds</h1>
+ 
+<table>
+  <tr>
+    <th>String 1</th>
+    <th>String 2</th>
+    <th>Match</th>
+  </tr>
+ 
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= post.str_1 %></td>
+      <td><%= post.str_2 %></td>
+      <td><%= post.match %></td>
+    </tr>
+  <% end %>
+</table>

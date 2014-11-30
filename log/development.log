@@ -578,3 +578,424 @@ Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -02
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 14:36:28 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:01:56 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.6ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 351ms (Views: 307.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:01:57 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (91.2ms)
+Completed 200 OK in 159ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:07:39 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+Processing by MatchesController#index as HTML
+  [1m[36mMatch Load (0.5ms)[0m  [1mSELECT "matches".* FROM "matches"[0m
+  Rendered matches/index.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:09 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.8ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:09:32 -0200
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 16:09:34 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 79ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:10:24 -0200
+Processing by MatchesController#index as HTML
+  [1m[36mMatch Load (0.4ms)[0m  [1mSELECT "matches".* FROM "matches"[0m
+  Rendered matches/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:25 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.6ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 93ms (Views: 90.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:10:28 -0200
+
+
+Started GET "/matches/1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMatch Load (0.4ms)[0m  [1mSELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered matches/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 86ms (Views: 80.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:11:36 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:11:39 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.4ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 16:11:42 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/matches" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+Processing by MatchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qtdSy3tz2xPlultFBaJYAX7oihx8+vLrrWSXt3ixou4=", "post"=>{"str_1"=>"ãẽĩũõãâẽẽ", "str_2"=>"aeeeiouaa", "match"=>"false"}, "commit"=>"Match"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "matches" ("created_at", "match", "str_1", "str_2", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-30 18:12:01.121394"], ["match", "t"], ["str_1", "ãẽĩũõãâẽẽ"], ["str_2", "aeeeiouaa"], ["updated_at", "2014-11-30 18:12:01.121394"]]
+  [1m[36m (14.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/matches/2
+Completed 302 Found in 49ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/matches/2" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMatch Load (0.4ms)[0m  SELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered matches/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:12:01 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:12:04 -0200
+Processing by MatchesController#index as HTML
+  [1m[36mMatch Load (0.4ms)[0m  [1mSELECT "matches".* FROM "matches"[0m
+  Rendered matches/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.6ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:36 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+Processing by MatchesController#index as HTML
+  [1m[36mMatch Load (0.5ms)[0m  [1mSELECT "matches".* FROM "matches"[0m
+  Rendered matches/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 89ms (Views: 86.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:15:38 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.4ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 88ms (Views: 85.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:16:11 -0200
+
+
+Started GET "/matches/1" for 127.0.0.1 at 2014-11-30 16:16:17 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMatch Load (0.3ms)[0m  [1mSELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered matches/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:16:18 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.5ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 105ms (Views: 103.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/matches/2" for 127.0.0.1 at 2014-11-30 16:16:19 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMatch Load (0.4ms)[0m  [1mSELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered matches/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 16:16:21 -0200
+Processing by MatchesController#index as HTML
+  [1m[35mMatch Load (0.4ms)[0m  SELECT "matches".* FROM "matches"
+  Rendered matches/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/matches/new" for 127.0.0.1 at 2014-11-30 16:18:54 -0200
+Processing by MatchesController#new as HTML
+  Rendered matches/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/matches" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+Processing by MatchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qtdSy3tz2xPlultFBaJYAX7oihx8+vLrrWSXt3ixou4=", "post"=>{"str_1"=>"español", "str_2"=>"espanol", "match"=>"false"}, "commit"=>"Match"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "matches" ("created_at", "match", "str_1", "str_2", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2014-11-30 18:19:00.461207"], ["match", "t"], ["str_1", "español"], ["str_2", "espanol"], ["updated_at", "2014-11-30 18:19:00.461207"]]
+  [1m[36m (32.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/matches/3
+Completed 302 Found in 39ms (ActiveRecord: 33.7ms)
+
+
+Started GET "/matches/3" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+Processing by MatchesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMatch Load (0.4ms)[0m  SELECT  "matches".* FROM "matches"  WHERE "matches"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered matches/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 16:19:00 -0200

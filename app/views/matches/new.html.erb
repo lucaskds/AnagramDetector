@@ -1,5 +1,6 @@
 <%= stylesheet_link_tag "form.css" %>
-<h1 class='elegant-aero'>New Detection</h1>
+<div class='elegant-aero'>
+<h1>New Detection</h1>
 <%= form_for :post, url: matches_path, :html => { :class => 'elegant-aero' } do |f| %>
   <p>
     <%= f.label 'String 1' %><br>
@@ -16,3 +17,4 @@
     <%= f.submit "Match", :class => 'elegant-aero'%>
   </p>
 <% end %>
+</div>

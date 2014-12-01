@@ -12,6 +12,7 @@
 .elegant-aero h1 {
     font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 10px 10px 10px 20px;
+    text-align: center;
     display: block;
     background: #C0E1FF;
     border-bottom: 1px solid #B8DDFF;

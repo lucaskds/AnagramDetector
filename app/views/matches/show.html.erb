@@ -1,33 +1,31 @@
 <%= stylesheet_link_tag "form.css" %>
-<table class='elegant-aero'>
-	<tr>
-		<td>
-	  		<strong>String 1:</strong>
-		</td>
-		<td>
-	  		<%= @post.str_1 %>
-	  	</td>
-	</tr>
-	<tr>
-		<td>
-	  		<strong>String 2:</strong>
-		</td>
-		<td>
-	  		<%= @post.str_2 %>
-	  	</td>
-	</tr>
-	<tr>
-		<td>
-	  		<strong>Match:</strong>
-		</td>
-		<td>
-	  		<%= @post.match %>
-	  	</td>
-	</tr>
-	<tr>
-		<td></td><td></td>
-	  	<td>
-			<%= link_to 'View all', '/' %>
-		</td>
-	</tr>
-</table>
+<div class='elegant-aero'>
+<h1>View match</h1>
+	<table>
+		<tr>
+			<td>
+		  		<strong>String 1:</strong>
+			</td>
+			<td>
+		  		<%= @post.str_1 %>
+		  	</td>
+		</tr>
+		<tr>
+			<td>
+		  		<strong>String 2:</strong>
+			</td>
+			<td>
+		  		<%= @post.str_2 %>
+		  	</td>
+		</tr>
+		<tr>
+			<td>
+		  		<strong>Match:</strong>
+			</td>
+			<td>
+		  		<%= @post.match %>
+		  	</td>
+		</tr>
+	</table>
+	<%= link_to 'View all', '/' %>
+</div>

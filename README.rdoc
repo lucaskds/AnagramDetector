@@ -12,7 +12,7 @@
 - On PostreSQL create user 'anagram_detector' and database 'anagram-detector_development' with anagram_detector as owner
 - Run 'bundle install' in the application directory
 - Run 'rake db:migrate' in the application directory
-- Run 'rails server' in the application directory to initialyze it
+- Run 'rails server' in the application directory to initialize it
 
 * Database creation/initialization
 - Create user anagram_detector

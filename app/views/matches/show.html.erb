@@ -1,15 +1,33 @@
-<p>
-  <strong>String 1:</strong>
-  <%= @post.str_1 %>
-</p>
- 
-<p>
-  <strong>String 2:</strong>
-  <%= @post.str_2 %><br>
-</p>
-<p>
-  <strong>Match:</strong>
-  <%= @post.match %>
-</p>
-
-<%= link_to 'View all', '/' %>
+<%= stylesheet_link_tag "form.css" %>
+<table class='elegant-aero'>
+	<tr>
+		<td>
+	  		<strong>String 1:</strong>
+		</td>
+		<td>
+	  		<%= @post.str_1 %>
+	  	</td>
+	</tr>
+	<tr>
+		<td>
+	  		<strong>String 2:</strong>
+		</td>
+		<td>
+	  		<%= @post.str_2 %>
+	  	</td>
+	</tr>
+	<tr>
+		<td>
+	  		<strong>Match:</strong>
+		</td>
+		<td>
+	  		<%= @post.match %>
+	  	</td>
+	</tr>
+	<tr>
+		<td></td><td></td>
+	  	<td>
+			<%= link_to 'View all', '/' %>
+		</td>
+	</tr>
+</table>

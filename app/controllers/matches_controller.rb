@@ -6,7 +6,7 @@ class MatchesController < ApplicationController
   end
 
   def index
-  	@posts = Match.all
+  	@matches = Match.all
   end
 
   def create

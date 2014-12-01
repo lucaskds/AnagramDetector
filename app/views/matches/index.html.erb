@@ -1,13 +1,16 @@
-<h1>Detected Anagrams</h1>
- <%= link_to 'New match', 'matches/new' %>
-<table>
+<%= stylesheet_link_tag "form.css" %>
+<h1 class='elegant-aero'>Detected Anagrams</h1>
+<table class='elegant-aero'>
   <tr>
-    <th>String 1</th>
-    <th>String 2</th>
-    <th>Match</th>
+    <td><%= link_to 'New match', 'matches/new' %></td>
+  </tr>
+  <tr>
+    <td><strong>String 1</strong></td>
+    <td><strong>String 2</strong></td>
+    <td><strong>Match</strong></td>
   </tr>
  
-  <% @posts.each do |post| %>
+  <% @matches.each do |post| %>
     <tr>
       <td><%= post.str_1 %></td>
       <td><%= post.str_2 %></td>

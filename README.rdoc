@@ -41,4 +41,6 @@
  Insert the strings to be matched and click 'Match'
  You'll be redirected to the show page, where you can see the strings and if they match
  Click in 'See all' to go back to the index page
+
+ IMPORTANT NOTE: The app transforms all variations of a specific char in a simple representation of that char, such that c = ç, ã = a, ü = u, etc.
 <tt>rake doc:app</tt>.

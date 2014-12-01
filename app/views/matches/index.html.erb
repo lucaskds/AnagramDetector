@@ -1,23 +1,23 @@
 <%= stylesheet_link_tag "form.css" %>
 <div class='elegant-aero'>
-<h1>Detected Anagrams</h1>
-<table>
-  <tr>
-    <td><%= link_to 'New match', 'matches/new' %></td>
-  </tr>
-  <tr>
-    <td><strong>String 1</strong></td>
-    <td><strong>String 2</strong></td>
-    <td><strong>Match</strong></td>
-  </tr>
- 
-  <% @matches.each do |post| %>
-    <tr>
-      <td><%= post.str_1 %></td>
-      <td><%= post.str_2 %></td>
-      <td><%= post.match %></td>
-      <td><%= link_to 'view', post %></td>
-    </tr>
-  <% end %>
-</table>
+  <h1>Detected Anagrams</h1>
+    <table>
+      <tr>
+        <td><%= link_to 'New match', 'matches/new' %></td>
+      </tr>
+      <tr>
+        <td><strong>String 1</strong></td>
+        <td><strong>String 2</strong></td>
+        <td><strong>Match</strong></td>
+      </tr>
+     
+      <% @matches.each do |post| %>
+        <tr>
+          <td><%= post.str_1 %></td>
+          <td><%= post.str_2 %></td>
+          <td><%= post.match %></td>
+          <td><%= link_to 'view', post %></td>
+        </tr>
+      <% end %>
+    </table>
 </div>

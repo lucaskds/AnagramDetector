@@ -1,20 +1,20 @@
 <%= stylesheet_link_tag "form.css" %>
 <div class='elegant-aero'>
-<h1>New Detection</h1>
-<%= form_for :post, url: matches_path, :html => { :class => 'elegant-aero' } do |f| %>
-  <p>
-    <%= f.label 'String 1' %><br>
-    <%= f.text_field :str_1 %>
-  </p>
- 
-  <p>
-    <%= f.label 'String 2' %><br>
-    <%= f.text_field :str_2 %>
-  </p>
- 
-  <p>
-    <%= f.hidden_field :match, :value => false %>
-    <%= f.submit "Match", :class => 'elegant-aero'%>
-  </p>
-<% end %>
+  <h1>New Detection</h1>
+    <%= form_for :post, url: matches_path, :html => { :class => 'elegant-aero' } do |f| %>
+      <p>
+        <%= f.label 'String 1' %><br>
+        <%= f.text_field :str_1 %>
+      </p>
+     
+      <p>
+        <%= f.label 'String 2' %><br>
+        <%= f.text_field :str_2 %>
+      </p>
+     
+      <p>
+        <%= f.hidden_field :match, :value => false %>
+        <%= f.submit "Match", :class => 'elegant-aero'%>
+      </p>
+    <% end %>
 </div>

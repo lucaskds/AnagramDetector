@@ -5,7 +5,7 @@
 
 * System dependencies
 - PostgreSQL
-- RSpec test framework
+- RSpec framework
 
 * Configuration
 - Install PostgreSQL
@@ -22,14 +22,23 @@
 - Run 'rake db:migrate' in the application directory
 
 * How to run the test suite
-- After cloning and configuring the app, 
+- After cloning and configuring the app, create a _test database
+  CREATE DATABASE "anagram-detector_test" OWNER anagram_detector;
+- Run 'rspec spec' in the application directory
 
 * Deployment instructions (Heroku)
 - Clone the repository from https://github.com/lucaskds/AnagramDetector.git
-- Go to the directory 
+- Go to the directory
 - Run 'heroku create --http-git' to generate your Heroku App
 - Deploy your code with 'git push heroku master'
 - Generate the database with 'heroku run rake db:migrate'
 - Your application is done
 
+* How to use
+- Index shows all matches (str_1, str_2 and if they matched)
+- Clicking in 'view',  you can view the show page of the match
+- Click in 'New match', you'll be redirected to the new match form
+- Insert the strings to be matched and click 'Match'
+- You'll be redirected to the show page, where you can see the strings and if they match
+- Click in 'See all' to go back to the index page
 <tt>rake doc:app</tt>.
